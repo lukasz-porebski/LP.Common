@@ -9,7 +9,7 @@ public partial class BaseGeneralTests
     [Fact]
     public void CommandName_Should_EndWithCommandWord()
     {
-        AssertInvalid(GetCommandTypes(), t => !t.Name.EndsWith("Command"));
+        AssertInvalid(GetCommandTypes(), t => !t.Name.EndsWith("Command", StringComparison.Ordinal));
     }
 
     [Fact]

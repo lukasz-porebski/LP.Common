@@ -8,7 +8,7 @@ public partial class BaseGeneralTests
     [Fact]
     public void CommandHandlerName_Should_EndWithCommandHandlerWord()
     {
-        AssertInvalid(GetCommandHandlerTypes(), t => !t.Name.EndsWith("CommandHandler"));
+        AssertInvalid(GetCommandHandlerTypes(), t => !t.Name.EndsWith("CommandHandler", StringComparison.Ordinal));
     }
 
     [Fact]

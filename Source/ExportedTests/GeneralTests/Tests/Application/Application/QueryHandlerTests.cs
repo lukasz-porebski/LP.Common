@@ -8,7 +8,7 @@ public partial class BaseGeneralTests
     [Fact]
     public void QueryHandlerName_Should_EndWithQueryHandlerWord()
     {
-        AssertInvalid(GetQueryHandlerTypes(), t => !t.Name.EndsWith("QueryHandler"));
+        AssertInvalid(GetQueryHandlerTypes(), t => !t.Name.EndsWith("QueryHandler", StringComparison.Ordinal));
     }
 
     [Fact]

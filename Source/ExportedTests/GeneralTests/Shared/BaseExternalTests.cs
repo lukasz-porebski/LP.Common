@@ -5,14 +5,14 @@ namespace Common.GeneralTests.Shared;
 
 public class BaseExternalTests : BaseTest
 {
-    protected void AssertInvalid(IEnumerable<Type> types, Func<Type, bool> predicate)
+    protected static void AssertInvalid(IEnumerable<Type> types, Func<Type, bool> predicate)
     {
         var invalidTypeNames = types.Where(predicate.Invoke).Select(t => t.Name).ToArray();
 
         invalidTypeNames.Should().BeEmpty();
     }
 
-    protected void AssertDeclarationHasImplementation(
+    protected static void AssertDeclarationHasImplementation(
         IEnumerable<Type> declarationTypes, IEnumerable<Type> implementationTypes, Type genericType)
     {
         var implementationInterfaces = implementationTypes.SelectMany(i => i.GetInterfaces()).ToArray();
@@ -27,7 +27,7 @@ public class BaseExternalTests : BaseTest
         invalidTypeNames.Should().BeEmpty();
     }
 
-    protected void AssertNumberOfDeclarationsAndImplementationsAreSame(
+    protected static void AssertNumberOfDeclarationsAndImplementationsAreSame(
         IEnumerable<Type> declarationTypes, IEnumerable<Type> implementationTypes)
     {
         declarationTypes.Count().Should().Be(implementationTypes.Count());

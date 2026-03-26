@@ -9,7 +9,7 @@ public partial class BaseGeneralTests
     [Fact]
     public void QueryName_Should_EndWithQueryWord()
     {
-        AssertInvalid(GetQueryTypes(), t => !t.Name.EndsWith("Query"));
+        AssertInvalid(GetQueryTypes(), t => !t.Name.EndsWith("Query", StringComparison.Ordinal));
     }
 
     [Fact]
