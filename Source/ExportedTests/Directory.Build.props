@@ -4,7 +4,6 @@
         <Nullable>enable</Nullable>
         <WarningsAsErrors>Nullable</WarningsAsErrors>
         <ImplicitUsings>enable</ImplicitUsings>
-        <IsPackable>false</IsPackable>
     </PropertyGroup>
 
     <ItemGroup>
