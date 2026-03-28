@@ -1,6 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
     <PropertyGroup>
         <IsTestProject>false</IsTestProject>
+        <RootNamespace>Common.TestsCore</RootNamespace>
     </PropertyGroup>
     <ItemGroup>
         <PackageReference Include="AutoFixture.Xunit2" Version="4.18.1"/>
@@ -9,6 +10,6 @@
         <PackageReference Include="xunit" Version="2.9.3"/>
     </ItemGroup>
     <ItemGroup>
-        <ProjectReference Include="..\..\Domain\Domain\Common.Domain.csproj"/>
+        <ProjectReference Include="..\..\Domain\Domain\Domain.csproj" />
     </ItemGroup>
 </Project>

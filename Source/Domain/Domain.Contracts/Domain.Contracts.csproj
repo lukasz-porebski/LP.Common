@@ -1,0 +1,5 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <RootNamespace>Common.Domain.Contracts</RootNamespace>
+  </PropertyGroup>
+</Project>

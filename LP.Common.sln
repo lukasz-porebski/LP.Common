@@ -2,23 +2,23 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Source", "Source", "{0F1BD125-3DDA-47B8-A5B4-69BCFD112B2E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common.Application", "Source\Application\Application\Common.Application.csproj", "{23B20D54-E881-4C46-9578-E44DA24003C1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application", "Source\Application\Application\Application.csproj", "{23B20D54-E881-4C46-9578-E44DA24003C1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common.Application.Contracts", "Source\Application\Application.Contracts\Common.Application.Contracts.csproj", "{1FAEC2F7-84BD-47C0-BEE5-F0C07653B7F0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application.Contracts", "Source\Application\Application.Contracts\Application.Contracts.csproj", "{1FAEC2F7-84BD-47C0-BEE5-F0C07653B7F0}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{DDC9FD51-D08D-4ADD-BF9A-BD70E7706702}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{C989A449-D14A-4EDE-BBE6-E6E2002D097A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common.Domain.Contracts", "Source\Domain\Domain.Contracts\Common.Domain.Contracts.csproj", "{C0098228-FC2D-408A-961A-FF5B5A21F983}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain.Contracts", "Source\Domain\Domain.Contracts\Domain.Contracts.csproj", "{C0098228-FC2D-408A-961A-FF5B5A21F983}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common.Domain", "Source\Domain\Domain\Common.Domain.csproj", "{F62B376F-291B-4863-AB8D-7A83C62BE74D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Source\Domain\Domain\Domain.csproj", "{F62B376F-291B-4863-AB8D-7A83C62BE74D}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ExportedTests", "ExportedTests", "{2C51BBBC-D588-47BC-A9D4-89A2051AB5BC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common.GeneralTests", "Source\ExportedTests\GeneralTests\Common.GeneralTests.csproj", "{D7C0EF47-14FB-4FEB-A1AF-8CF69F8C8E9C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeneralTests", "Source\ExportedTests\GeneralTests\GeneralTests.csproj", "{D7C0EF47-14FB-4FEB-A1AF-8CF69F8C8E9C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common.TestsCore", "Source\ExportedTests\TestsCore\Common.TestsCore.csproj", "{F7A250A3-14D3-4A75-B8DA-CD7C02772D2D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestsCore", "Source\ExportedTests\TestsCore\TestsCore.csproj", "{F7A250A3-14D3-4A75-B8DA-CD7C02772D2D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common.Host", "Source\Host\Common.Host.csproj", "{7D4BD5C9-2783-4176-AEE8-A8C6ED41BC58}"
 EndProject
@@ -26,21 +26,21 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Identity", "Identity", "{EF
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{2C78BC78-BF76-4621-AD1F-BD477F77A8E5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common.Shared", "Source\Shared\Common.Shared.csproj", "{6AD1EE48-5FC7-4478-B5E0-D07E26E50E63}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shared", "Source\Shared\Shared.csproj", "{6AD1EE48-5FC7-4478-B5E0-D07E26E50E63}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common.Identity", "Source\Identity\Identity\Common.Identity.csproj", "{95126360-7DE7-411C-8D27-E172AC2736CE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Identity", "Source\Identity\Identity\Identity.csproj", "{95126360-7DE7-411C-8D27-E172AC2736CE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common.Identity.Contracts", "Source\Identity\Identity.Contracts\Common.Identity.Contracts.csproj", "{873D22CA-D1FB-4437-B143-F484ED0A77DE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Identity.Contracts", "Source\Identity\Identity.Contracts\Identity.Contracts.csproj", "{873D22CA-D1FB-4437-B143-F484ED0A77DE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common.Identity.EF", "Source\Identity\Identity.EF\Common.Identity.EF.csproj", "{7CEF8044-36ED-4394-9AE1-A675764FBF44}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Identity.EF", "Source\Identity\Identity.EF\Identity.EF.csproj", "{7CEF8044-36ED-4394-9AE1-A675764FBF44}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common.Infrastructure.Database.EF", "Source\Infrastructure\Infrastructure.Database.EF\Common.Infrastructure.Database.EF.csproj", "{5D6FCCBF-C9DB-4466-83E5-C5F2897D4224}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure.Database.EF", "Source\Infrastructure\Infrastructure.Database.EF\Infrastructure.Database.EF.csproj", "{5D6FCCBF-C9DB-4466-83E5-C5F2897D4224}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common.Infrastructure.Endpoints", "Source\Infrastructure\Infrastructure.Endpoints\Common.Infrastructure.Endpoints.csproj", "{4BFE53EC-1FB9-410E-A9F2-CB12EC3A44A2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure.Endpoints", "Source\Infrastructure\Infrastructure.Endpoints\Infrastructure.Endpoints.csproj", "{4BFE53EC-1FB9-410E-A9F2-CB12EC3A44A2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common.Infrastructure.Integration", "Source\Infrastructure\Infrastructure.Integration\Common.Infrastructure.Integration.csproj", "{2460C3D1-BB20-4AB4-AECD-F65174CE28BB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure.Integration", "Source\Infrastructure\Infrastructure.Integration\Infrastructure.Integration.csproj", "{2460C3D1-BB20-4AB4-AECD-F65174CE28BB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common.Infrastructure.ReadModels.Dapper", "Source\Infrastructure\Infrastructure.ReadModels.Dapper\Common.Infrastructure.ReadModels.Dapper.csproj", "{2FDF1DA6-2C15-4D86-BFC0-008F6583BC31}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure.ReadModels.Dapper", "Source\Infrastructure\Infrastructure.ReadModels.Dapper\Infrastructure.ReadModels.Dapper.csproj", "{2FDF1DA6-2C15-4D86-BFC0-008F6583BC31}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{5307C131-2682-42AA-A4B2-F89BFEB93331}"
 EndProject
@@ -50,11 +50,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{E854F8
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ExportedTests", "ExportedTests", "{F60804E0-495C-49A1-A4A4-713F8422E9AE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common.GeneralTests.Implementation", "Tests\ExportedTests\GeneralTests.Implementation\Common.GeneralTests.Implementation.csproj", "{2E8EB249-7DCF-4557-99C6-31E9E6580110}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeneralTests.Implementation", "Tests\ExportedTests\GeneralTests.Implementation\GeneralTests.Implementation.csproj", "{2E8EB249-7DCF-4557-99C6-31E9E6580110}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common.Domain.Tests", "Tests\Source\Domain\Domain.Tests\Common.Domain.Tests.csproj", "{88A8BCB8-B0B4-4F6F-ACA9-A84A3EB7946E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain.Tests", "Tests\Source\Domain\Domain.Tests\Domain.Tests.csproj", "{88A8BCB8-B0B4-4F6F-ACA9-A84A3EB7946E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common.Shared.Tests", "Tests\Source\Shared\Common.Shared.Tests.csproj", "{8263CB57-33E5-4521-BFCF-932F94DC14B4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shared.Tests", "Tests\Source\Shared\Shared.Tests.csproj", "{8263CB57-33E5-4521-BFCF-932F94DC14B4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

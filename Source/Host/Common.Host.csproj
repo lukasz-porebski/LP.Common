@@ -1,11 +1,11 @@
 <Project Sdk="Microsoft.NET.Sdk">
     <ItemGroup>
-        <ProjectReference Include="..\Application\Application\Common.Application.csproj"/>
-        <ProjectReference Include="..\Identity\Identity\Common.Identity.csproj"/>
-        <ProjectReference Include="..\Infrastructure\Infrastructure.Database.EF\Common.Infrastructure.Database.EF.csproj"/>
-        <ProjectReference Include="..\Infrastructure\Infrastructure.Endpoints\Common.Infrastructure.Endpoints.csproj"/>
-        <ProjectReference Include="..\Infrastructure\Infrastructure.Integration\Common.Infrastructure.Integration.csproj"/>
-        <ProjectReference Include="..\Infrastructure\Infrastructure.ReadModels.Dapper\Common.Infrastructure.ReadModels.Dapper.csproj"/>
+        <ProjectReference Include="..\Application\Application\Application.csproj" />
+        <ProjectReference Include="..\Identity\Identity\Identity.csproj" />
+        <ProjectReference Include="..\Infrastructure\Infrastructure.Database.EF\Infrastructure.Database.EF.csproj" />
+        <ProjectReference Include="..\Infrastructure\Infrastructure.Endpoints\Infrastructure.Endpoints.csproj" />
+        <ProjectReference Include="..\Infrastructure\Infrastructure.Integration\Infrastructure.Integration.csproj" />
+        <ProjectReference Include="..\Infrastructure\Infrastructure.ReadModels.Dapper\Infrastructure.ReadModels.Dapper.csproj" />
     </ItemGroup>
     <ItemGroup>
         <PackageReference Include="Autofac" Version="9.1.0"/>

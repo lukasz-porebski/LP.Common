@@ -1,6 +1,9 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+      <RootNamespace>Common.Infrastructure.Endpoints</RootNamespace>
+    </PropertyGroup>
     <ItemGroup>
-        <ProjectReference Include="..\..\Application\Application.Contracts\Common.Application.Contracts.csproj"/>
+        <ProjectReference Include="..\..\Application\Application.Contracts\Application.Contracts.csproj" />
     </ItemGroup>
     <ItemGroup>
         <PackageReference Include="AutoMapper" Version="16.1.1"/>
