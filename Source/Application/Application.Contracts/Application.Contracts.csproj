@@ -1,6 +1,6 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
     <PropertyGroup>
-      <RootNamespace>Common.Application.Contracts</RootNamespace>
+      <RootNamespace>LP.Common.Application.Contracts</RootNamespace>
     </PropertyGroup>
     <ItemGroup>
         <ProjectReference Include="..\..\Domain\Domain\Domain.csproj" />

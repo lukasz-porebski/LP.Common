@@ -1,6 +1,6 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
     <PropertyGroup>
-      <RootNamespace>Common.Infrastructure.Endpoints</RootNamespace>
+      <RootNamespace>LP.Common.Infrastructure.Endpoints</RootNamespace>
     </PropertyGroup>
     <ItemGroup>
         <ProjectReference Include="..\..\Application\Application.Contracts\Application.Contracts.csproj" />

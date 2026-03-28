@@ -1,7 +1,7 @@
-using Common.Domain.Interfaces;
-using Common.Domain.ValueObjects;
+using LP.Common.Domain.Interfaces;
+using LP.Common.Domain.ValueObjects;
 
-namespace Common.Domain.Data;
+namespace LP.Common.Domain.Data;
 
 public record EntityPersistData<T>(EntityNo? No, T Data) : IPersistableEntity
     where T : class

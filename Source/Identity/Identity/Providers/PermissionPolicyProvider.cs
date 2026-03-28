@@ -1,8 +1,8 @@
-﻿using Common.Identity.Contracts.Attributes;
+﻿using LP.Common.Identity.Contracts.Attributes;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.Extensions.Options;
 
-namespace Common.Identity.Providers;
+namespace LP.Common.Identity.Providers;
 
 public class PermissionPolicyProvider(IOptions<AuthorizationOptions> options) : IAuthorizationPolicyProvider
 {

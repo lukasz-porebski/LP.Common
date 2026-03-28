@@ -1,4 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+      <RootNamespace>LP.Common.Host</RootNamespace>
+    </PropertyGroup>
     <ItemGroup>
         <ProjectReference Include="..\Application\Application\Application.csproj" />
         <ProjectReference Include="..\Identity\Identity\Identity.csproj" />

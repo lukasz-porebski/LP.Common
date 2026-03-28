@@ -1,9 +1,9 @@
-using Common.Domain.Entities;
-using Common.Domain.ValueObjects;
 using FluentAssertions;
+using LP.Common.Domain.Entities;
+using LP.Common.Domain.ValueObjects;
 using Xunit;
 
-namespace Common.Domain.Tests.Entities;
+namespace Domain.Tests.Entities;
 
 public class BaseAggregateRootTests
 {

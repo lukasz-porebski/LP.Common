@@ -1,7 +1,7 @@
-using Common.Shared.Providers;
+using LP.Common.Shared.Providers;
 using Microsoft.Extensions.Localization;
 
-namespace Common.Host.Providers;
+namespace LP.Common.Host.Providers;
 
 public class MessageProvider(IStringLocalizerFactory stringLocalizerFactory) : IMessageProvider
 {

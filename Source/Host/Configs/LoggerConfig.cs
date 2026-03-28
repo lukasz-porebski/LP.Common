@@ -1,11 +1,11 @@
-using Common.Host.Extensions;
+using LP.Common.Host.Extensions;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Serilog;
 using Serilog.Events;
 
-namespace Common.Host.Configs;
+namespace LP.Common.Host.Configs;
 
 internal static class LoggerConfig
 {

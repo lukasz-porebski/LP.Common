@@ -1,6 +1,6 @@
-using Common.Domain.ValueObjects;
+using LP.Common.Domain.ValueObjects;
 
-namespace Common.Identity.EF.Entities;
+namespace LP.Common.Identity.EF.Entities;
 
 public class RefreshToken
 {

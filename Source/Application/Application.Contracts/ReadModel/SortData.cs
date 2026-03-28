@@ -1,3 +1,3 @@
-﻿namespace Common.Application.Contracts.ReadModel;
+﻿namespace LP.Common.Application.Contracts.ReadModel;
 
 public record SortData(string ColumnName, bool IsAscending);

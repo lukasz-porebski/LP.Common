@@ -1,4 +1,4 @@
-namespace Common.Shared.Utils;
+namespace LP.Common.Shared.Utils;
 
 public interface IHasher
 {

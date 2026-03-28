@@ -1,7 +1,8 @@
 ﻿using FluentAssertions;
+using LP.Common.Domain.ValueObjects;
 using Xunit;
 
-namespace Common.Domain.ValueObjects;
+namespace Domain.Tests.ValueObjects;
 
 public class AggregateIdTests
 {

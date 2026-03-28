@@ -1,6 +1,6 @@
-using Common.Shared.Exceptions;
+using LP.Common.Shared.Exceptions;
 
-namespace Common.Application.Exceptions;
+namespace LP.Common.Application.Exceptions;
 
 public class BusinessLogicException(string messageCode, IReadOnlyCollection<object>? parameters = null, Exception? innerException = null)
     : BaseException(messageCode, parameters, innerException);

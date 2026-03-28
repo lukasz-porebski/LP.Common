@@ -1,6 +1,6 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
     <PropertyGroup>
-      <RootNamespace>Common.Infrastructure.Integration</RootNamespace>
+      <RootNamespace>LP.Common.Infrastructure.Integration</RootNamespace>
     </PropertyGroup>
     <ItemGroup>
         <PackageReference Include="RestSharp" Version="114.0.0"/>

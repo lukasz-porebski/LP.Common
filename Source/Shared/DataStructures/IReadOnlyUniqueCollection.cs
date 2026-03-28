@@ -1,6 +1,6 @@
 ﻿using System.Diagnostics.CodeAnalysis;
 
-namespace Common.Shared.DataStructures;
+namespace LP.Common.Shared.DataStructures;
 
 public interface IReadOnlyUniqueCollection<TKey, TValue> : ICollection<TValue>
     where TKey : notnull

@@ -1,6 +1,6 @@
-using Common.Shared.Data;
+using LP.Common.Shared.Data;
 
-namespace Common.Shared.Exceptions;
+namespace LP.Common.Shared.Exceptions;
 
 public abstract class BaseException : Exception
 {

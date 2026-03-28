@@ -1,12 +1,12 @@
 using AutoMapper;
-using Common.Application.Contracts.ReadModel;
-using Common.Domain.Data;
-using Common.Domain.ValueObjects;
-using Common.Infrastructure.Endpoints.Requests;
-using Common.Infrastructure.Endpoints.Responses;
-using Common.Infrastructure.Endpoints.ViewModels;
+using LP.Common.Application.Contracts.ReadModel;
+using LP.Common.Domain.Data;
+using LP.Common.Domain.ValueObjects;
+using LP.Common.Infrastructure.Endpoints.Requests;
+using LP.Common.Infrastructure.Endpoints.Responses;
+using LP.Common.Infrastructure.Endpoints.ViewModels;
 
-namespace Common.Infrastructure.Endpoints;
+namespace LP.Common.Infrastructure.Endpoints;
 
 public class SharedProfile : Profile
 {

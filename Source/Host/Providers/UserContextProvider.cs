@@ -1,12 +1,12 @@
-using Common.Application.Contracts.User;
-using Common.Application.Exceptions;
-using Common.Domain.ValueObjects;
-using Common.Host.Extensions;
-using Common.Shared.Attributes;
+using LP.Common.Application.Contracts.User;
+using LP.Common.Application.Exceptions;
+using LP.Common.Domain.ValueObjects;
+using LP.Common.Host.Extensions;
+using LP.Common.Shared.Attributes;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Hosting;
 
-namespace Common.Host.Providers;
+namespace LP.Common.Host.Providers;
 
 [Provider]
 public class UserContextProvider(IHttpContextAccessor httpContextAccessor, IHostEnvironment env) : IUserContextProvider

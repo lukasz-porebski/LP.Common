@@ -1,6 +1,6 @@
-﻿using Common.Domain.ValueObjects;
+﻿using LP.Common.Domain.ValueObjects;
 
-namespace Common.Identity.EF.Interfaces;
+namespace LP.Common.Identity.EF.Interfaces;
 
 public interface IPermissionService
 {

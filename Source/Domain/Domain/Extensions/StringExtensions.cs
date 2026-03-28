@@ -1,6 +1,6 @@
-﻿using Common.Domain.ValueObjects;
+﻿using LP.Common.Domain.ValueObjects;
 
-namespace Common.Domain.Extensions;
+namespace LP.Common.Domain.Extensions;
 
 public static class StringExtensions
 {

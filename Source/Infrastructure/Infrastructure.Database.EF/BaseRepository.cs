@@ -1,14 +1,14 @@
 ﻿using System.Linq.Expressions;
-using Common.Application.Contracts.Interfaces;
-using Common.Application.Contracts.User;
-using Common.Domain.Entities;
-using Common.Domain.ValueObjects;
-using Common.Shared.Extensions;
-using Common.Shared.Providers;
+using LP.Common.Application.Contracts.Interfaces;
+using LP.Common.Application.Contracts.User;
+using LP.Common.Domain.Entities;
+using LP.Common.Domain.ValueObjects;
+using LP.Common.Shared.Extensions;
+using LP.Common.Shared.Providers;
 using Microsoft.EntityFrameworkCore;
 using MoreLinq;
 
-namespace Common.Infrastructure.Database.EF;
+namespace LP.Common.Infrastructure.Database.EF;
 
 public abstract class BaseRepository<TAggregateRoot> : IRepository<TAggregateRoot>
     where TAggregateRoot : BaseAggregateRoot

@@ -1,4 +1,4 @@
-﻿namespace Common.Infrastructure.ReadModels.Dapper;
+﻿namespace LP.Common.Infrastructure.ReadModels.Dapper;
 
 public interface IDatabaseConnectionStringProvider
 {

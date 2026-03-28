@@ -1,14 +1,14 @@
 using System.Reflection;
 using System.Windows.Input;
-using Common.Application.CQRS;
-using Common.Domain.Contracts;
-using Common.Domain.Entities;
-using Common.Infrastructure.Database.EF;
-using Common.Infrastructure.Endpoints;
-using Common.Infrastructure.Integration;
-using Common.Infrastructure.ReadModels.Dapper;
+using LP.Common.Application.CQRS;
+using LP.Common.Domain.Contracts;
+using LP.Common.Domain.Entities;
+using LP.Common.Infrastructure.Database.EF;
+using LP.Common.Infrastructure.Endpoints;
+using LP.Common.Infrastructure.Integration;
+using LP.Common.Infrastructure.ReadModels.Dapper;
 
-namespace Common.Host;
+namespace LP.Common.Host;
 
 public class CommonAssemblies : BaseAssemblies
 {

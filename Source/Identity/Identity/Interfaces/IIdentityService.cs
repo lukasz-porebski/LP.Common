@@ -1,6 +1,6 @@
-using Common.Identity.Models;
+using LP.Common.Identity.Models;
 
-namespace Common.Identity.Interfaces;
+namespace LP.Common.Identity.Interfaces;
 
 public interface IIdentityService
 {

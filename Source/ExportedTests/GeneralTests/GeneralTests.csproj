@@ -1,10 +1,10 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
     <PropertyGroup>
         <IsTestProject>false</IsTestProject>
-        <RootNamespace>Common.GeneralTests</RootNamespace>
+        <RootNamespace>LP.Common.GeneralTests</RootNamespace>
     </PropertyGroup>
     <ItemGroup>
-        <ProjectReference Include="..\..\Host\Common.Host.csproj"/>
+        <ProjectReference Include="..\..\Host\Host.csproj" />
         <ProjectReference Include="..\TestsCore\TestsCore.csproj" />
     </ItemGroup>
 </Project>

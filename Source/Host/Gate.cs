@@ -1,9 +1,9 @@
 using AutoMapper;
-using Common.Application.Contracts.CQRS;
-using Common.Infrastructure.Endpoints;
+using LP.Common.Application.Contracts.CQRS;
+using LP.Common.Infrastructure.Endpoints;
 using MediatR;
 
-namespace Common.Host;
+namespace LP.Common.Host;
 
 public class Gate(IMediator mediator, IMapper mapper) : IGate
 {

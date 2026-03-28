@@ -1,13 +1,13 @@
-using Common.Application.Contracts.CQRS;
-using Common.Application.Contracts.Interfaces;
-using Common.Application.CQRS;
-using Common.Host.Attributes;
-using Common.Host.Extensions;
-using Common.Infrastructure.ReadModels.Dapper;
-using Common.Shared.Attributes;
+using LP.Common.Application.Contracts.CQRS;
+using LP.Common.Application.Contracts.Interfaces;
+using LP.Common.Application.CQRS;
+using LP.Common.Host.Attributes;
+using LP.Common.Host.Extensions;
+using LP.Common.Infrastructure.ReadModels.Dapper;
+using LP.Common.Shared.Attributes;
 using RestSharp.Extensions;
 
-namespace Common.Host.Utils;
+namespace LP.Common.Host.Utils;
 
 public static class TypeRecognizer
 {

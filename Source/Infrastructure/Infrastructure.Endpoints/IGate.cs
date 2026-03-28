@@ -1,6 +1,6 @@
-using Common.Application.Contracts.CQRS;
+using LP.Common.Application.Contracts.CQRS;
 
-namespace Common.Infrastructure.Endpoints;
+namespace LP.Common.Infrastructure.Endpoints;
 
 public interface IGate
 {

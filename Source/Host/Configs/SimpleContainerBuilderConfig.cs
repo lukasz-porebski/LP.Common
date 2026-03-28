@@ -1,12 +1,12 @@
 using Autofac;
-using Common.Host.Extensions;
-using Common.Host.Middlewares;
-using Common.Host.Providers;
-using Common.Host.Utils;
-using Common.Infrastructure.Database.EF;
+using LP.Common.Host.Extensions;
+using LP.Common.Host.Middlewares;
+using LP.Common.Host.Providers;
+using LP.Common.Host.Utils;
+using LP.Common.Infrastructure.Database.EF;
 using Microsoft.Extensions.Configuration;
 
-namespace Common.Host.Configs;
+namespace LP.Common.Host.Configs;
 
 internal static class SimpleContainerBuilderConfig
 {

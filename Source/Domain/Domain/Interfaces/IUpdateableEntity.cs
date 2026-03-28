@@ -1,6 +1,6 @@
-using Common.Domain.ValueObjects;
+using LP.Common.Domain.ValueObjects;
 
-namespace Common.Domain.Interfaces;
+namespace LP.Common.Domain.Interfaces;
 
 public interface IUpdateableEntity
 {

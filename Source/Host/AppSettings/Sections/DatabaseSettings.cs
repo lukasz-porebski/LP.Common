@@ -1,4 +1,4 @@
-﻿namespace Common.Host.AppSettings.Sections;
+﻿namespace LP.Common.Host.AppSettings.Sections;
 
 public class DatabaseSettings
 {

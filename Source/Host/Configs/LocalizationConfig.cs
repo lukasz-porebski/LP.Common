@@ -1,12 +1,12 @@
 using System.Globalization;
 using Autofac;
-using Common.Host.Providers;
+using LP.Common.Host.Providers;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Localization;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Options;
 
-namespace Common.Host.Configs;
+namespace LP.Common.Host.Configs;
 
 internal static class LocalizationConfig
 {

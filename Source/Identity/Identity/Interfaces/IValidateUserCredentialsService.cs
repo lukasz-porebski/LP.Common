@@ -1,6 +1,6 @@
-using Common.Domain.ValueObjects;
+using LP.Common.Domain.ValueObjects;
 
-namespace Common.Identity.Interfaces;
+namespace LP.Common.Identity.Interfaces;
 
 public interface IValidateUserCredentialsService
 {

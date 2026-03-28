@@ -1,8 +1,8 @@
 ﻿using System.IdentityModel.Tokens.Jwt;
-using Common.Domain.ValueObjects;
+using LP.Common.Domain.ValueObjects;
 using Microsoft.AspNetCore.Http;
 
-namespace Common.Host.Extensions;
+namespace LP.Common.Host.Extensions;
 
 internal static class HttpContextExtensions
 {

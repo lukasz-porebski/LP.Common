@@ -1,8 +1,8 @@
 ﻿using System.Reflection;
-using Common.Identity.EF.Extensions;
+using LP.Common.Identity.EF.Extensions;
 using Microsoft.EntityFrameworkCore;
 
-namespace Common.Infrastructure.Database.EF;
+namespace LP.Common.Infrastructure.Database.EF;
 
 public abstract class BaseDbContext(DbContextOptions options, Assembly efProjectAssembly) : DbContext(options)
 {

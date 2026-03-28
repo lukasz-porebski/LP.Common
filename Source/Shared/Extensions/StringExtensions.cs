@@ -1,4 +1,4 @@
-﻿namespace Common.Shared.Extensions;
+﻿namespace LP.Common.Shared.Extensions;
 
 public static class StringExtensions
 {

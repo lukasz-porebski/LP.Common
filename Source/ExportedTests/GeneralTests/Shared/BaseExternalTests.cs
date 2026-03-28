@@ -1,7 +1,7 @@
-using Common.TestsCore;
 using FluentAssertions;
+using LP.Common.TestsCore;
 
-namespace Common.GeneralTests.Shared;
+namespace LP.Common.GeneralTests.Shared;
 
 public class BaseExternalTests : BaseTest
 {

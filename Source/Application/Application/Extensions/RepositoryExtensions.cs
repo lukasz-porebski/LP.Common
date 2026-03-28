@@ -1,11 +1,11 @@
 using System.Linq.Expressions;
-using Common.Application.Contracts.Interfaces;
-using Common.Application.Exceptions;
-using Common.Domain.Entities;
-using Common.Domain.ValueObjects;
-using Common.Shared.Extensions;
+using LP.Common.Application.Contracts.Interfaces;
+using LP.Common.Application.Exceptions;
+using LP.Common.Domain.Entities;
+using LP.Common.Domain.ValueObjects;
+using LP.Common.Shared.Extensions;
 
-namespace Common.Application.Extensions;
+namespace LP.Common.Application.Extensions;
 
 public static class RepositoryExtensions
 {

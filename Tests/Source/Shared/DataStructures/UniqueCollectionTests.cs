@@ -1,8 +1,8 @@
-using Common.Shared.DataStructures;
 using FluentAssertions;
+using LP.Common.Shared.DataStructures;
 using Xunit;
 
-namespace Common.Shared.Tests.DataStructures;
+namespace Shared.Tests.DataStructures;
 
 public class UniqueCollectionTests
 {

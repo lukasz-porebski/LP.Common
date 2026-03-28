@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 
-namespace Common.Infrastructure.Endpoints;
+namespace LP.Common.Infrastructure.Endpoints;
 
 public class BaseController(IGate gate) : ControllerBase
 {

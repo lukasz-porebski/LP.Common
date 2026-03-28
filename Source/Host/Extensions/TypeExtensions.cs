@@ -1,4 +1,4 @@
-﻿namespace Common.Host.Extensions;
+﻿namespace LP.Common.Host.Extensions;
 
 public static class TypeExtensions
 {

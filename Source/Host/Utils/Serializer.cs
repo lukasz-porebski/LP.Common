@@ -1,6 +1,6 @@
 using Newtonsoft.Json;
 
-namespace Common.Host.Utils;
+namespace LP.Common.Host.Utils;
 
 public static class Serializer
 {

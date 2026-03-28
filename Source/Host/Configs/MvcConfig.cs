@@ -3,7 +3,7 @@ using Newtonsoft.Json;
 using Newtonsoft.Json.Converters;
 using Newtonsoft.Json.Serialization;
 
-namespace Common.Host.Configs;
+namespace LP.Common.Host.Configs;
 
 internal static class MvcConfig
 {

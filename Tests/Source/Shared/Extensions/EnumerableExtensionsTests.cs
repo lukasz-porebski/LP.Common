@@ -1,10 +1,10 @@
 ﻿using AutoFixture;
-using Common.Shared.Extensions;
-using Common.TestsCore;
 using FluentAssertions;
+using LP.Common.Shared.Extensions;
+using LP.Common.TestsCore;
 using Xunit;
 
-namespace Common.Shared.Tests.Extensions;
+namespace Shared.Tests.Extensions;
 
 public class EnumerableExtensionsTests : BaseTest
 {

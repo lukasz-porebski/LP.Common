@@ -1,4 +1,4 @@
-﻿namespace Common.Shared.DataStructures;
+﻿namespace LP.Common.Shared.DataStructures;
 
 public record CollectionDifferences<TCurrent, TTarget, TKey>(
     IReadOnlyUniqueCollection<TKey, TCurrent> ToRemove,

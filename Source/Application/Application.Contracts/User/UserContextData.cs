@@ -1,6 +1,6 @@
-using Common.Domain.ValueObjects;
+using LP.Common.Domain.ValueObjects;
 
-namespace Common.Application.Contracts.User;
+namespace LP.Common.Application.Contracts.User;
 
 public record UserContextData(
     AggregateId UserId

@@ -1,7 +1,7 @@
-using Common.Infrastructure.Endpoints;
+using LP.Common.Infrastructure.Endpoints;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace Common.Host.Configs;
+namespace LP.Common.Host.Configs;
 
 internal static class SimpleServiceCollectionConfig
 {

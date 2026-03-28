@@ -1,4 +1,4 @@
-﻿namespace Common.Domain.Specification;
+﻿namespace LP.Common.Domain.Specification;
 
 public interface ISpecification<in T>
 {

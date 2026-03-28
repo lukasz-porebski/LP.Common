@@ -1,7 +1,7 @@
-﻿using Common.Domain.Interfaces;
-using Common.Domain.ValueObjects;
+﻿using LP.Common.Domain.Interfaces;
+using LP.Common.Domain.ValueObjects;
 
-namespace Common.Domain.Entities;
+namespace LP.Common.Domain.Entities;
 
 public abstract class BaseEntity(AggregateId id, EntityNo no) : BaseEntityCore(id), IUpdateableEntity
 {

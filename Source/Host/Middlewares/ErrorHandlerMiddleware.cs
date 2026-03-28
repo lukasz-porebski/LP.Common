@@ -1,15 +1,15 @@
 using System.Globalization;
 using System.Net;
-using Common.Application.Exceptions;
-using Common.Domain.Exceptions;
-using Common.Domain.Specification;
-using Common.Host.Utils;
-using Common.Shared.Exceptions;
-using Common.Shared.Providers;
+using LP.Common.Application.Exceptions;
+using LP.Common.Domain.Exceptions;
+using LP.Common.Domain.Specification;
+using LP.Common.Host.Utils;
+using LP.Common.Shared.Exceptions;
+using LP.Common.Shared.Providers;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Logging;
 
-namespace Common.Host.Middlewares;
+namespace LP.Common.Host.Middlewares;
 
 public class ErrorHandlerMiddleware(ILogger<ErrorHandlerMiddleware> logger, IMessageProvider messageProvider) : IMiddleware
 {

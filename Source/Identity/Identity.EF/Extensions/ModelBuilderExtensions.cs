@@ -1,7 +1,7 @@
-using Common.Identity.EF.Entities;
+using LP.Common.Identity.EF.Entities;
 using Microsoft.EntityFrameworkCore;
 
-namespace Common.Identity.EF.Extensions;
+namespace LP.Common.Identity.EF.Extensions;
 
 public static class ModelBuilderExtensions
 {

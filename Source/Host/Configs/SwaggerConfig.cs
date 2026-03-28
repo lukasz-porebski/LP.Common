@@ -1,13 +1,13 @@
-using Common.Host.AppSettings;
-using Common.Host.AppSettings.Sections;
-using Common.Host.Extensions;
-using Common.Shared.Extensions;
+using LP.Common.Host.AppSettings;
+using LP.Common.Host.AppSettings.Sections;
+using LP.Common.Host.Extensions;
+using LP.Common.Shared.Extensions;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.OpenApi;
 
-namespace Common.Host.Configs;
+namespace LP.Common.Host.Configs;
 
 internal static class SwaggerConfig
 {

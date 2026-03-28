@@ -1,11 +1,11 @@
-using Common.Domain.Extensions;
-using Common.Domain.Interfaces;
-using Common.Domain.ValueObjects;
-using Common.TestsCore;
 using FluentAssertions;
+using LP.Common.Domain.Extensions;
+using LP.Common.Domain.Interfaces;
+using LP.Common.Domain.ValueObjects;
+using LP.Common.TestsCore;
 using Xunit;
 
-namespace Common.Domain.Tests.Extensions;
+namespace Domain.Tests.Extensions;
 
 public class EntityExtensionsTests : BaseTest
 {

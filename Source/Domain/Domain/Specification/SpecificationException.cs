@@ -1,7 +1,7 @@
-﻿using Common.Shared.Data;
-using Common.Shared.Exceptions;
+﻿using LP.Common.Shared.Data;
+using LP.Common.Shared.Exceptions;
 
-namespace Common.Domain.Specification;
+namespace LP.Common.Domain.Specification;
 
 public class SpecificationException : BaseException
 {

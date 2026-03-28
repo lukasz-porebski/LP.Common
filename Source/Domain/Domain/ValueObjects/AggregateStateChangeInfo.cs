@@ -1,6 +1,6 @@
-using Common.Domain.Attributes;
+using LP.Common.Domain.Attributes;
 
-namespace Common.Domain.ValueObjects;
+namespace LP.Common.Domain.ValueObjects;
 
 [ValueObject]
 public record AggregateStateChangeInfo(AggregateId? UserId, DateTime At)

@@ -1,9 +1,9 @@
-using Common.Shared.DataStructures;
-using Common.Shared.Extensions;
 using FluentAssertions;
+using LP.Common.Shared.DataStructures;
+using LP.Common.Shared.Extensions;
 using Xunit;
 
-namespace Common.Shared.Tests.Extensions;
+namespace Shared.Tests.Extensions;
 
 public class UniqueCollectionExtensionsTests
 {

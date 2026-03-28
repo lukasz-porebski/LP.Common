@@ -1,14 +1,14 @@
 using System.Text;
 using Autofac;
-using Common.Host.AppSettings;
-using Common.Host.Extensions;
-using Common.Identity;
-using Common.Identity.EF.Interfaces;
-using Common.Identity.Interfaces;
-using Common.Identity.Providers;
-using Common.Infrastructure.Database.EF;
-using Common.Shared.Providers;
-using Common.Shared.Utils;
+using LP.Common.Host.AppSettings;
+using LP.Common.Host.Extensions;
+using LP.Common.Identity;
+using LP.Common.Identity.EF.Interfaces;
+using LP.Common.Identity.Interfaces;
+using LP.Common.Identity.Providers;
+using LP.Common.Infrastructure.Database.EF;
+using LP.Common.Shared.Providers;
+using LP.Common.Shared.Utils;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Builder;
@@ -16,7 +16,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.IdentityModel.Tokens;
 
-namespace Common.Host.Configs;
+namespace LP.Common.Host.Configs;
 
 internal static class IdentityConfig
 {

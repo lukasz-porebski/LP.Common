@@ -1,4 +1,4 @@
-﻿namespace Common.Identity;
+﻿namespace LP.Common.Identity;
 
 public static class IdentityConstants
 {

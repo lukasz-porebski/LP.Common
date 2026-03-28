@@ -1,16 +1,16 @@
 using System.Globalization;
 using Autofac;
 using Autofac.Extensions.DependencyInjection;
-using Common.Host.Configs;
-using Common.Host.Middlewares;
-using Common.Infrastructure.Database.EF;
+using LP.Common.Host.Configs;
+using LP.Common.Host.Middlewares;
+using LP.Common.Infrastructure.Database.EF;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Serilog;
 
-namespace Common.Host;
+namespace LP.Common.Host;
 
 public abstract class BaseProgram<TAssemblies, TDbContext>
     where TAssemblies : BaseAssemblies

@@ -1,6 +1,6 @@
 using System.Reflection;
 
-namespace Common.Host;
+namespace LP.Common.Host;
 
 public abstract class BaseAssemblies
 {

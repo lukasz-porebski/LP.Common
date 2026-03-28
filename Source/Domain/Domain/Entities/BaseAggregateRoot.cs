@@ -1,7 +1,7 @@
-﻿using Common.Domain.Exceptions;
-using Common.Domain.ValueObjects;
+﻿using LP.Common.Domain.Exceptions;
+using LP.Common.Domain.ValueObjects;
 
-namespace Common.Domain.Entities;
+namespace LP.Common.Domain.Entities;
 
 public abstract class BaseAggregateRoot : IEquatable<BaseAggregateRoot>
 {

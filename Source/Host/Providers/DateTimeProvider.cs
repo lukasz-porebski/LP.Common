@@ -1,7 +1,7 @@
-using Common.Shared.Attributes;
-using Common.Shared.Providers;
+using LP.Common.Shared.Attributes;
+using LP.Common.Shared.Providers;
 
-namespace Common.Host.Providers;
+namespace LP.Common.Host.Providers;
 
 [Provider]
 public class DateTimeProvider : IDateTimeProvider

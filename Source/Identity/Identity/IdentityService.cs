@@ -2,17 +2,17 @@
 using System.Security.Claims;
 using System.Security.Cryptography;
 using System.Text;
-using Common.Domain.ValueObjects;
-using Common.Identity.EF.Entities;
-using Common.Identity.EF.Interfaces;
-using Common.Identity.Interfaces;
-using Common.Identity.Models;
-using Common.Shared.Providers;
-using Common.Shared.Utils;
+using LP.Common.Domain.ValueObjects;
+using LP.Common.Identity.EF.Entities;
+using LP.Common.Identity.EF.Interfaces;
+using LP.Common.Identity.Interfaces;
+using LP.Common.Identity.Models;
+using LP.Common.Shared.Providers;
+using LP.Common.Shared.Utils;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 
-namespace Common.Identity;
+namespace LP.Common.Identity;
 
 public class IdentityService<TDbContext>(
     IIdentityConfiguration identityConfiguration,

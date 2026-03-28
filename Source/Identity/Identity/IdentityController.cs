@@ -1,11 +1,11 @@
-using Common.Identity.Interfaces;
-using Common.Identity.Models;
+using LP.Common.Identity.Interfaces;
+using LP.Common.Identity.Models;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.RateLimiting;
 using Microsoft.Extensions.Hosting;
 
-namespace Common.Identity;
+namespace LP.Common.Identity;
 
 [Route("identity")]
 public class IdentityController(IIdentityService service, IHostEnvironment env) : ControllerBase

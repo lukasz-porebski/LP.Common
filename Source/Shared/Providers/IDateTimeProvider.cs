@@ -1,4 +1,4 @@
-namespace Common.Shared.Providers;
+namespace LP.Common.Shared.Providers;
 
 public interface IDateTimeProvider
 {

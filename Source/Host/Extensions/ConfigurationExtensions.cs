@@ -1,7 +1,7 @@
-using Common.Host.AppSettings;
+using LP.Common.Host.AppSettings;
 using Microsoft.Extensions.Configuration;
 
-namespace Common.Host.Extensions;
+namespace LP.Common.Host.Extensions;
 
 public static class ConfigurationExtensions
 {

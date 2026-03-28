@@ -1,6 +1,6 @@
-﻿using Common.Shared.Data;
+﻿using LP.Common.Shared.Data;
 
-namespace Common.Domain.Specification;
+namespace LP.Common.Domain.Specification;
 
 public class SpecificationBuilderDirector
 {

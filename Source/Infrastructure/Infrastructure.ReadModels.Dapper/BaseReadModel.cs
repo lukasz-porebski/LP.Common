@@ -1,10 +1,10 @@
 ﻿using System.Globalization;
-using Common.Application.Contracts.ReadModel;
-using Common.Shared.Extensions;
 using Dapper;
+using LP.Common.Application.Contracts.ReadModel;
+using LP.Common.Shared.Extensions;
 using Npgsql;
 
-namespace Common.Infrastructure.ReadModels.Dapper;
+namespace LP.Common.Infrastructure.ReadModels.Dapper;
 
 public abstract class BaseReadModel(IDatabaseConnectionStringProvider connectionStringProvider)
 {

@@ -1,4 +1,4 @@
-﻿namespace Common.Infrastructure.Endpoints.Requests;
+﻿namespace LP.Common.Infrastructure.Endpoints.Requests;
 
 public record PaginationRequest(
     int PageNumber,

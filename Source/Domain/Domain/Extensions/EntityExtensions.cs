@@ -1,8 +1,8 @@
-﻿using Common.Domain.Interfaces;
-using Common.Domain.ValueObjects;
-using Common.Shared.Extensions;
+﻿using LP.Common.Domain.Interfaces;
+using LP.Common.Domain.ValueObjects;
+using LP.Common.Shared.Extensions;
 
-namespace Common.Domain.Extensions;
+namespace LP.Common.Domain.Extensions;
 
 public static class EntityExtensions
 {

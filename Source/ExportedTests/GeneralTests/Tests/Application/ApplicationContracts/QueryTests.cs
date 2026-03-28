@@ -1,8 +1,8 @@
-using Common.Application.CQRS;
-using Common.Host.Utils;
+using LP.Common.Application.CQRS;
+using LP.Common.Host.Utils;
 using Xunit;
 
-namespace Common.GeneralTests.Tests;
+namespace LP.Common.GeneralTests.Tests;
 
 public partial class BaseGeneralTests
 {

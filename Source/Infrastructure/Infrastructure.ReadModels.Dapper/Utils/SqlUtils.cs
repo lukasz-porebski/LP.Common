@@ -1,4 +1,4 @@
-namespace Common.Infrastructure.ReadModels.Dapper.Utils;
+namespace LP.Common.Infrastructure.ReadModels.Dapper.Utils;
 
 public static class SqlUtils
 {

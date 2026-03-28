@@ -1,11 +1,11 @@
 using AutoMapper;
-using Common.Host.Configs;
+using LP.Common.Host.Configs;
 using Microsoft.Extensions.Logging;
 using Moq;
 using MoreLinq;
 using Xunit;
 
-namespace Common.GeneralTests.Tests;
+namespace LP.Common.GeneralTests.Tests;
 
 public partial class BaseGeneralTests
 {

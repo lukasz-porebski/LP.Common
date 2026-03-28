@@ -1,3 +1,3 @@
-namespace Common.Identity.Models;
+namespace LP.Common.Identity.Models;
 
 public record LoginRequest(string Email, string Password);

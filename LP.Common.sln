@@ -20,7 +20,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeneralTests", "Source\Expo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestsCore", "Source\ExportedTests\TestsCore\TestsCore.csproj", "{F7A250A3-14D3-4A75-B8DA-CD7C02772D2D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common.Host", "Source\Host\Common.Host.csproj", "{7D4BD5C9-2783-4176-AEE8-A8C6ED41BC58}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Host", "Source\Host\Host.csproj", "{7D4BD5C9-2783-4176-AEE8-A8C6ED41BC58}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Identity", "Identity", "{EF04D02F-C9FE-42DB-84F1-DDDB5B7B8390}"
 EndProject

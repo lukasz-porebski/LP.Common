@@ -1,4 +1,4 @@
-namespace Common.Application.Contracts.User;
+namespace LP.Common.Application.Contracts.User;
 
 public interface IUserContextProvider
 {

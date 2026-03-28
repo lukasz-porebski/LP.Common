@@ -1,3 +1,3 @@
-﻿namespace Common.Domain.Contracts;
+﻿namespace LP.Common.Domain.Contracts;
 
 public class Marker;

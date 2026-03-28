@@ -1,6 +1,6 @@
-﻿using Common.Host.AppSettings.Sections;
+﻿using LP.Common.Host.AppSettings.Sections;
 
-namespace Common.Host.AppSettings;
+namespace LP.Common.Host.AppSettings;
 
 public abstract class BaseAppSettingsSections
 {

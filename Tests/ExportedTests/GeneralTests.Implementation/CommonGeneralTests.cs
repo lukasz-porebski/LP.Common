@@ -1,6 +1,6 @@
-﻿using Common.GeneralTests.Tests;
-using Common.Host;
+﻿using LP.Common.GeneralTests.Tests;
+using LP.Common.Host;
 
-namespace Common.GeneralTests.Implementation;
+namespace GeneralTests.Implementation;
 
 public class CommonGeneralTests() : BaseGeneralTests(new CommonAssemblies());

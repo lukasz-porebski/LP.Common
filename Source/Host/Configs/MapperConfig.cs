@@ -1,9 +1,9 @@
 using AutoMapper;
-using Common.Infrastructure.Endpoints;
+using LP.Common.Infrastructure.Endpoints;
 using Microsoft.Extensions.DependencyInjection;
 using MoreLinq.Extensions;
 
-namespace Common.Host.Configs;
+namespace LP.Common.Host.Configs;
 
 public static class MapperConfig
 {

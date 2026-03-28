@@ -1,7 +1,7 @@
-﻿using Common.Domain.Attributes;
-using Common.Domain.Exceptions;
+﻿using LP.Common.Domain.Attributes;
+using LP.Common.Domain.Exceptions;
 
-namespace Common.Domain.ValueObjects;
+namespace LP.Common.Domain.ValueObjects;
 
 [ValueObject]
 public record EntityNo : IComparable<EntityNo>, IComparable

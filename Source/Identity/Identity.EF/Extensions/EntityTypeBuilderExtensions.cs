@@ -1,7 +1,7 @@
-﻿using Common.Domain.ValueObjects;
+﻿using LP.Common.Domain.ValueObjects;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
-namespace Common.Identity.EF.Extensions;
+namespace LP.Common.Identity.EF.Extensions;
 
 public static class EntityTypeBuilderExtensions
 {

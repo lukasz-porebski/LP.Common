@@ -1,7 +1,4 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
-    <PropertyGroup>
-      <RootNamespace>Common.GeneralTests.Implementation</RootNamespace>
-    </PropertyGroup>
     <ItemGroup>
         <ProjectReference Include="..\..\..\Source\ExportedTests\GeneralTests\GeneralTests.csproj" />
     </ItemGroup>

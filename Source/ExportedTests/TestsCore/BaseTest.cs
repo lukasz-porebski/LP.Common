@@ -1,8 +1,8 @@
 using AutoFixture;
 using AutoFixture.Kernel;
-using Common.Domain.ValueObjects;
+using LP.Common.Domain.ValueObjects;
 
-namespace Common.TestsCore;
+namespace LP.Common.TestsCore;
 
 public abstract class BaseTest
 {

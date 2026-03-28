@@ -1,6 +1,6 @@
 <Project Sdk="Microsoft.NET.Sdk">
     <PropertyGroup>
-      <RootNamespace>Common.Infrastructure.ReadModels.Dapper</RootNamespace>
+      <RootNamespace>LP.Common.Infrastructure.ReadModels.Dapper</RootNamespace>
     </PropertyGroup>
     <ItemGroup>
         <ProjectReference Include="..\..\Application\Application.Contracts\Application.Contracts.csproj" />

@@ -1,8 +1,8 @@
 using System.Linq.Expressions;
-using Common.Domain.Entities;
-using Common.Domain.ValueObjects;
+using LP.Common.Domain.Entities;
+using LP.Common.Domain.ValueObjects;
 
-namespace Common.Application.Contracts.Interfaces;
+namespace LP.Common.Application.Contracts.Interfaces;
 
 public interface IRepository<TAggregateRoot>
     where TAggregateRoot : BaseAggregateRoot

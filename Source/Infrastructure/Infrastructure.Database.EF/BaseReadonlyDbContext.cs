@@ -1,8 +1,8 @@
-﻿using Common.Application.Contracts.Interfaces;
-using Common.Domain.Entities;
+﻿using LP.Common.Application.Contracts.Interfaces;
+using LP.Common.Domain.Entities;
 using Microsoft.EntityFrameworkCore;
 
-namespace Common.Infrastructure.Database.EF;
+namespace LP.Common.Infrastructure.Database.EF;
 
 public abstract class BaseReadonlyDbContext<TDbContext>(TDbContext context) : IReadonlyDatabase
     where TDbContext : BaseDbContext

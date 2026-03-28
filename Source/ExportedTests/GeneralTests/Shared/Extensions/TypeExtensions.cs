@@ -1,4 +1,4 @@
-namespace Common.GeneralTests.Shared.Extensions;
+namespace LP.Common.GeneralTests.Shared.Extensions;
 
 internal static class TypeExtensions
 {

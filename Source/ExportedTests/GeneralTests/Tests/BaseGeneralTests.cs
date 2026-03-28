@@ -1,6 +1,6 @@
-using Common.GeneralTests.Shared;
-using Common.Host;
+using LP.Common.GeneralTests.Shared;
+using LP.Common.Host;
 
-namespace Common.GeneralTests.Tests;
+namespace LP.Common.GeneralTests.Tests;
 
 public abstract partial class BaseGeneralTests(BaseAssemblies assemblies) : BaseExternalTests;

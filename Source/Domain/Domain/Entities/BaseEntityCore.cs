@@ -1,6 +1,6 @@
-﻿using Common.Domain.ValueObjects;
+﻿using LP.Common.Domain.ValueObjects;
 
-namespace Common.Domain.Entities;
+namespace LP.Common.Domain.Entities;
 
 public abstract class BaseEntityCore(AggregateId id)
 {

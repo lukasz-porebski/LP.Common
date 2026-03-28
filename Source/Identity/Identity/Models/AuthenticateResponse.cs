@@ -1,6 +1,6 @@
 using Newtonsoft.Json;
 
-namespace Common.Identity.Models;
+namespace LP.Common.Identity.Models;
 
 public record AuthenticateResponse(
     string UserId,

@@ -1,7 +1,7 @@
 ﻿using RestSharp;
 using RestSharp.Authenticators;
 
-namespace Common.Infrastructure.Integration;
+namespace LP.Common.Infrastructure.Integration;
 
 public abstract class BaseApi
 {

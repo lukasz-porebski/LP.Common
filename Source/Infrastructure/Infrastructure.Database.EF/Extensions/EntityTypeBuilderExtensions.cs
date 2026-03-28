@@ -1,11 +1,11 @@
 ﻿using System.Linq.Expressions;
-using Common.Domain.Entities;
-using Common.Domain.ValueObjects;
-using Common.Identity.EF.Extensions;
+using LP.Common.Domain.Entities;
+using LP.Common.Domain.ValueObjects;
+using LP.Common.Identity.EF.Extensions;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
-namespace Common.Infrastructure.Database.EF.Extensions;
+namespace LP.Common.Infrastructure.Database.EF.Extensions;
 
 public static class EntityTypeBuilderExtensions
 {

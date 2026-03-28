@@ -1,13 +1,13 @@
 ﻿using System.Threading.RateLimiting;
-using Common.Host.AppSettings;
-using Common.Host.Extensions;
-using Common.Identity;
+using LP.Common.Host.AppSettings;
+using LP.Common.Host.Extensions;
+using LP.Common.Identity;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.RateLimiting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace Common.Host.Configs;
+namespace LP.Common.Host.Configs;
 
 internal static class RateLimiterConfig
 {

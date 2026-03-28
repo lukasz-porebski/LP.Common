@@ -1,6 +1,6 @@
-using Common.Shared.Utils;
+using LP.Common.Shared.Utils;
 
-namespace Common.Host.Utils;
+namespace LP.Common.Host.Utils;
 
 public class Hasher : IHasher
 {

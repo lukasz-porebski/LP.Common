@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Diagnostics.CodeAnalysis;
 
-namespace Common.Shared.DataStructures;
+namespace LP.Common.Shared.DataStructures;
 
 public class UniqueCollection<TKey, TValue> : IReadOnlyUniqueCollection<TKey, TValue>
     where TKey : notnull

@@ -1,6 +1,6 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
     <PropertyGroup>
-      <RootNamespace>Common.Identity.EF</RootNamespace>
+      <RootNamespace>LP.Common.Identity.EF</RootNamespace>
     </PropertyGroup>
     <ItemGroup>
         <PackageReference Include="Microsoft.EntityFrameworkCore" Version="10.0.5"/>

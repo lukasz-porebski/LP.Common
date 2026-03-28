@@ -1,6 +1,6 @@
-﻿using Common.Domain.Entities;
+﻿using LP.Common.Domain.Entities;
 
-namespace Common.Application.Contracts.Interfaces;
+namespace LP.Common.Application.Contracts.Interfaces;
 
 public interface IReadonlyDatabase
 {

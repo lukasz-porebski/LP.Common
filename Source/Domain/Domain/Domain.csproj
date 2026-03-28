@@ -1,6 +1,6 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
     <PropertyGroup>
-      <RootNamespace>Common.Domain</RootNamespace>
+      <RootNamespace>LP.Common.Domain</RootNamespace>
     </PropertyGroup>
     <ItemGroup>
         <ProjectReference Include="..\..\Shared\Shared.csproj" />

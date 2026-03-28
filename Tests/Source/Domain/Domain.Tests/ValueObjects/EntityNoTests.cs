@@ -1,9 +1,10 @@
 ﻿using AutoFixture;
-using Common.TestsCore;
 using FluentAssertions;
+using LP.Common.Domain.ValueObjects;
+using LP.Common.TestsCore;
 using Xunit;
 
-namespace Common.Domain.ValueObjects;
+namespace Domain.Tests.ValueObjects;
 
 public class EntityNoTests : BaseTest
 {

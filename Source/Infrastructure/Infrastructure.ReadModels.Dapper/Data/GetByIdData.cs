@@ -1,6 +1,6 @@
-﻿using Common.Domain.ValueObjects;
+﻿using LP.Common.Domain.ValueObjects;
 
-namespace Common.Infrastructure.ReadModels.Dapper.Data;
+namespace LP.Common.Infrastructure.ReadModels.Dapper.Data;
 
 public record GetByIdData
 {

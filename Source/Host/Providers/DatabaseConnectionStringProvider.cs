@@ -1,10 +1,10 @@
-﻿using Common.Host.AppSettings;
-using Common.Host.Extensions;
-using Common.Infrastructure.ReadModels.Dapper;
-using Common.Shared.Attributes;
+﻿using LP.Common.Host.AppSettings;
+using LP.Common.Host.Extensions;
+using LP.Common.Infrastructure.ReadModels.Dapper;
+using LP.Common.Shared.Attributes;
 using Microsoft.Extensions.Configuration;
 
-namespace Common.Host.Providers;
+namespace LP.Common.Host.Providers;
 
 [Provider]
 public class DatabaseConnectionStringProvider(IConfiguration configuration) : IDatabaseConnectionStringProvider

@@ -1,13 +1,13 @@
-using Common.Host.AppSettings;
-using Common.Host.Extensions;
-using Common.Infrastructure.Database.EF;
+using LP.Common.Host.AppSettings;
+using LP.Common.Host.Extensions;
+using LP.Common.Infrastructure.Database.EF;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Newtonsoft.Json;
 
-namespace Common.Host.Configs;
+namespace LP.Common.Host.Configs;
 
 public static class EfConfig
 {

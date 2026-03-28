@@ -1,9 +1,9 @@
-﻿using Common.Domain.Extensions;
-using Common.TestsCore;
-using FluentAssertions;
+﻿using FluentAssertions;
+using LP.Common.Domain.Extensions;
+using LP.Common.TestsCore;
 using Xunit;
 
-namespace Common.Domain.Tests.Extensions;
+namespace Domain.Tests.Extensions;
 
 public class StringExtensionsTests : BaseTest
 {

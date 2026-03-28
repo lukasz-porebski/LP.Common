@@ -1,6 +1,6 @@
-using Common.Shared.DataStructures;
+using LP.Common.Shared.DataStructures;
 
-namespace Common.Shared.Extensions;
+namespace LP.Common.Shared.Extensions;
 
 public static class ReadOnlyCollectionExtensions
 {

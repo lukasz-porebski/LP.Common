@@ -1,9 +1,9 @@
-﻿using Common.Domain.ValueObjects;
-using Common.TestsCore;
-using FluentAssertions;
+﻿using FluentAssertions;
+using LP.Common.Domain.ValueObjects;
+using LP.Common.TestsCore;
 using Xunit;
 
-namespace Common.Domain.Tests.ValueObjects;
+namespace Domain.Tests.ValueObjects;
 
 public class DateTimePeriodTests : BaseTest
 {

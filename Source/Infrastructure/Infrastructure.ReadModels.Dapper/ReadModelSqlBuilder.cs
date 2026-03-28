@@ -1,9 +1,9 @@
 using System.Globalization;
 using System.Text;
-using Common.Application.Contracts.ReadModel;
-using Common.Shared.Extensions;
+using LP.Common.Application.Contracts.ReadModel;
+using LP.Common.Shared.Extensions;
 
-namespace Common.Infrastructure.ReadModels.Dapper;
+namespace LP.Common.Infrastructure.ReadModels.Dapper;
 
 internal sealed class ReadModelSqlBuilder
 {

@@ -1,4 +1,4 @@
-﻿namespace Common.Application.Contracts.ReadModel;
+﻿namespace LP.Common.Application.Contracts.ReadModel;
 
 public record PaginatedListDto<T>(
     IReadOnlyCollection<T> Items,

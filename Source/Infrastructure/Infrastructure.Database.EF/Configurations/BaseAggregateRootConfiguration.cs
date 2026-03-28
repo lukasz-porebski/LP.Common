@@ -1,9 +1,9 @@
-﻿using Common.Domain.Entities;
-using Common.Infrastructure.Database.EF.Extensions;
+﻿using LP.Common.Domain.Entities;
+using LP.Common.Infrastructure.Database.EF.Extensions;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
-namespace Common.Infrastructure.Database.EF.Configurations;
+namespace LP.Common.Infrastructure.Database.EF.Configurations;
 
 public abstract class BaseAggregateRootConfiguration<TAggregateRoot> : IEntityTypeConfiguration<TAggregateRoot>
     where TAggregateRoot : BaseAggregateRoot
