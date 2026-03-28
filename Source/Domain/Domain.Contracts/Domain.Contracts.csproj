@@ -1,5 +1,2 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
-  <PropertyGroup>
-    <RootNamespace>LP.Common.Domain.Contracts</RootNamespace>
-  </PropertyGroup>
 </Project>

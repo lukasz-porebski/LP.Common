@@ -1,7 +1,4 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
-    <PropertyGroup>
-      <RootNamespace>LP.Common.Identity.Contracts</RootNamespace>
-    </PropertyGroup>
     <ItemGroup>
         <PackageReference Include="Microsoft.AspNetCore.Authorization" Version="10.0.5"/>
     </ItemGroup>

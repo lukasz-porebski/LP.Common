@@ -1,7 +1,6 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
     <PropertyGroup>
         <IsTestProject>false</IsTestProject>
-        <RootNamespace>LP.Common.TestsCore</RootNamespace>
     </PropertyGroup>
     <ItemGroup>
         <PackageReference Include="AutoFixture.Xunit2" Version="4.18.1"/>

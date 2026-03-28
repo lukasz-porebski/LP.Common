@@ -1,7 +1,4 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
-    <PropertyGroup>
-      <RootNamespace>LP.Common.Infrastructure.Database.EF</RootNamespace>
-    </PropertyGroup>
     <ItemGroup>
         <ProjectReference Include="..\..\Application\Application.Contracts\Application.Contracts.csproj" />
         <ProjectReference Include="..\..\Identity\Identity.EF\Identity.EF.csproj" />

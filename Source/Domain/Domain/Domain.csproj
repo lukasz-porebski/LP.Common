@@ -1,9 +1,10 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
-    <PropertyGroup>
-      <RootNamespace>LP.Common.Domain</RootNamespace>
-    </PropertyGroup>
     <ItemGroup>
         <ProjectReference Include="..\..\Shared\Shared.csproj" />
         <ProjectReference Include="..\Domain.Contracts\Domain.Contracts.csproj" />
+    </ItemGroup>
+    <ItemGroup>
+        <InternalsVisibleTo Include="LP.Common.Infrastructure.Database.EF" />
+        <InternalsVisibleTo Include="Domain.Tests" />
     </ItemGroup>
 </Project>

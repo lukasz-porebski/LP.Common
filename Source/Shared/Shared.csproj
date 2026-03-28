@@ -1,7 +1,4 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
-    <PropertyGroup>
-      <RootNamespace>LP.Common.Shared</RootNamespace>
-    </PropertyGroup>
     <ItemGroup>
         <PackageReference Include="morelinq" Version="4.4.0"/>
     </ItemGroup>

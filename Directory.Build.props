@@ -9,6 +9,7 @@
 
         <!-- NuGet Package Configuration -->
         <PackageId>LP.Common.$(MSBuildProjectName)</PackageId>
+        <AssemblyName>LP.Common.$(MSBuildProjectName)</AssemblyName>
         <PackageVersion Condition="'$(PackageVersion)' == ''">1.0.0</PackageVersion>
         <Version>$(PackageVersion)</Version>
         <RepositoryUrl>https://github.com/lukasz-porebski/LP.Common</RepositoryUrl>

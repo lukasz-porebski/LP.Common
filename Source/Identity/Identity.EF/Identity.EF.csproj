@@ -1,7 +1,4 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
-    <PropertyGroup>
-      <RootNamespace>LP.Common.Identity.EF</RootNamespace>
-    </PropertyGroup>
     <ItemGroup>
         <PackageReference Include="Microsoft.EntityFrameworkCore" Version="10.0.5"/>
         <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="10.0.5"/>
